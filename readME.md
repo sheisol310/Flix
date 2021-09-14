@@ -21,7 +21,33 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+- Walkthrough 
+<p align="left">
+<img src="iphone8.gif">
+</p>
+- View on various device sizes, ex: iPad Pro
+<p align="left">
+<img src="ipro.gif">
+</p>
+- Run the app on a real device 
+<p align="left">
+<img src="phone.gif">
+</p>
 
 ### Notes
-Describe any challenges encountered while building the app.
+1. How to view the app on various device sizes and orientations? 
+<p>
+Adding different constraints to let each object know the relative distances respecting to other objects so that they know where to locate on various device sizes.   
+</p>
+
+2. How to display the app on a real device? 
+<p>
+a. Connect the Iphone with the MAC <br>
+b. Go to account to add your account that is the same as the one on your phone <br>
+c. Click the project, find a section called "Signing & Capabilities." Then look at the name in "Bundle Identifier," the end of the name should be ".app." That is to say the whole name should look like: company.project.app <br>
+d. Replace the simulator with your phone device, and run it. <br>
+e. Look at your iPhone and the app will be installed automatically in few seconds. <br>
+f. There may be a error message telling you that the app is not authorized. Don't get panic, follow the steps. <br>
+g. On your iPhone. Go to Settings --> General --> Device Management --> click your app and make your phone trust it. <br>  
+</p>
+
