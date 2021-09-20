@@ -1,0 +1,6 @@
+framework module Pods_flixster_Lin_flixster_LinUITests {
+  umbrella header "Pods-flixster-Lin-flixster-LinUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
